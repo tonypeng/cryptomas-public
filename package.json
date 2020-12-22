@@ -1,0 +1,66 @@
+{
+  "name": "cryptomas",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@craco/craco": "^6.0.0",
+    "@reduxjs/toolkit": "^1.5.0",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "algosdk": "^1.8.1",
+    "base-64": "^1.0.0",
+    "big.js": "^6.0.3",
+    "coininfo": "^5.1.0",
+    "coinkey": "^3.0.0",
+    "ethereumjs-wallet": "^1.0.1",
+    "keymirror": "^0.1.1",
+    "qrcode.react": "^1.0.0",
+    "react": "^17.0.1",
+    "react-beforeunload": "^2.4.0",
+    "react-copy-to-clipboard": "^5.0.2",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^4.1.0",
+    "react-modal": "^3.12.1",
+    "react-redux": "^7.2.2",
+    "react-responsive": "^8.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.1",
+    "react-spinners": "^0.9.0",
+    "react-ticker": "^1.2.2",
+    "react-to-pdf": "^0.0.13",
+    "react-to-print": "^2.12.1",
+    "secure-random": "^1.1.2",
+    "toformat": "^2.0.0",
+    "utf8": "^3.0.0",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "raw-loader": "^4.0.2"
+  }
+}
