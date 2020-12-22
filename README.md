@@ -2,6 +2,10 @@
 Create holiday-themed cryptocurrency gift cards!
 https://merrycryptomas.com
 
+<p align="center">
+  <img src="https://merrycryptomas.com/screenshot.png" />
+</p>
+
 ### Why is the code only partially open-sourced?
 https://merrycryptomas.com/about "Is it open-source?"
 
