@@ -45,7 +45,7 @@ export default function GenerateLink({isOpen, onRequestClose, card}) {
     const bytes = utf8.encode(json);
     const serialized = base64.encode(bytes);
 
-    const url = buildUrl('/card?data=' + serialized, true, Constants.WEBSITE_SHORT_URL);
+    const url = buildUrl('/card#' + serialized, true, Constants.WEBSITE_SHORT_URL);
 
     const [copied, setCopied] = useState(false);
 

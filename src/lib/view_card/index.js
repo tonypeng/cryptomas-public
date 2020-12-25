@@ -132,7 +132,7 @@ function ViewCardWrapper() {
     const location = useLocation();
     const query = new URLSearchParams(location.search);
 
-    const dataEncoded = query.get('data');
+    const dataEncoded = window.location.hash.substring(1) || query.get('data').replace(' ', '+');
     if (!dataEncoded) {
         return (
             <Redirect to="/" />
